@@ -1,0 +1,6 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python outreach_pipeline.py --input creators_input.csv --output /tmp/creators_output.xlsx"
+restartPolicyType = "NEVER"
